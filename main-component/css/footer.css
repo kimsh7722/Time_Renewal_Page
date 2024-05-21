@@ -1,0 +1,52 @@
+#footer {
+    width: 100%;
+    /* background-color: #6495ed; */
+    text-align: left;
+    padding: 60px 50px;
+    box-sizing: border-box;
+    border-top:1px solid lightgray;
+    display: flex;
+}
+#footer a{
+    text-decoration: none;
+}
+
+/* 왼쪽 사이드 */
+.side_atc {
+    width: 60%;
+    /* border: 1px solid yellow; */
+}
+.side_atc>.logo_b>img {
+    width: 100px;
+    object-fit: cover;
+    /* background-color: beige; */
+}
+
+/* 오른쪽 사이드 */
+.right_atc {
+    /* border: 1px solid orangered; */
+    width: 547.19px;
+    height: 111px;
+    display: flex;
+}
+.right_atc a{
+    /* border: 1px solid orangered; */
+    color: gray;
+}
+.right_atc>ul {
+    /* width: 110px; */
+    font-size: 12px;
+    margin-right: 20px;
+}
+.right_atc>ul>li {
+    width: 110px;
+    /* border: 1px solid black; */
+    font-size: 12px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.right_atc>.tel_info {
+    width: 183px;
+    height: auto;
+    /* border: 1px solid black; */
+}

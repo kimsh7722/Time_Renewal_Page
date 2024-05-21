@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ┌메뉴 상단 ICON -->
+    <link rel="icon" href="main-component/img/logonerdy.webp">
+    <title>회원가입-게시판</title>
+    
+    <link rel="stylesheet" href="main-component/css/wrap.css">
+    <link rel="stylesheet" href="main-component/css/header.css">
+    <link rel="stylesheet" href="main-component/css/menu-drop.css">
+    <link rel="stylesheet" href="member-join-component/css/contents.css">
+    <link rel="stylesheet" href="member-join-component/css/contents-join.css">
+    <link rel="stylesheet" href="main-component/css/footer.css">
+
+    <script src="member-join-component/js/selectTag.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <div id="nav">
+                <div class="left-logo">
+                    <a href="index.html">
+                        <img src="main-component/img/nerdylogo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="reder-menw">
+                    <ul>
+                        <!-- ┌ nav의 Dropdwon 메뉴 추가 -->
+                        <li class="main-menu drop">
+                            <a href="">베스트</a>
+                            <ul class="sub-menu sub-menu-image">
+                                <li>
+                                    <a href="">
+                                        <img src="main-component/img/nav_01.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="main-component/img/nav_02.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="main-component/img/nav_03.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu drop">
+                            <a href="#">MAN</a>
+                            <ul class="sub-menu menu-list">
+                                <li>
+                                    <a href="">남성 상의</a>
+                                    <ul>
+                                        <li><a href="">맨투맨</a></li>
+                                        <li><a href="">반팔</a></li>
+                                        <li><a href="">아우터</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">남성 하의</a>
+                                    <ul>
+                                        <li><a href="">팬츠</a></li>
+                                        <li><a href="">7부</a></li>
+                                        <li><a href="">5부</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">남성 신발</a>
+                                    <ul>
+                                        <li><a href="">운동화</a></li>
+                                        <li><a href="">슬리퍼</a></li>
+                                        <li><a href="">크록스</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">남성 액세서리</a>
+                                    <ul>
+                                        <li><a href="">가방</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu drop">
+                            <a href="">WOMAN</a>
+                            <ul class="sub-menu menu-list">
+                                <li>
+                                    <a href="">여성 상의</a>
+                                    <ul>
+                                        <li><a href="">맨투맨</a></li>
+                                        <li><a href="">반팔</a></li>
+                                        <li><a href="">아우터</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">여성 하의</a>
+                                    <ul>
+                                        <li><a href="">팬츠</a></li>
+                                        <li><a href="">7부</a></li>
+                                        <li><a href="">5부</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">여성 신발</a>
+                                    <ul>
+                                        <li><a href="">운동화</a></li>
+                                        <li><a href="">슬리퍼</a></li>
+                                        <li><a href="">크록스</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">여성 액세서리</a>
+                                    <ul>
+                                        <li><a href="">가방</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu ">
+                            <a href="wareslist-board.html">아울렛</a>
+                        </li>
+                        <li class="main-menu drop">
+                            <a href="">고객센터</a>
+                            <ul class="sub-menu service-list">
+                                <li><a href="">Notice</a></li>
+                                <li><a href="">ReVlue</a></li>
+                                <li><a href="">Q & A</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-side">
+                    <div>
+                        <div class="search-1">
+                            <input type="search" placeholder="Search">
+                            <a href="" style="padding-left: 5px; box-sizing: border-box;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="login.html">로그인</a>
+                    <a href="member-join.html">회원가입</a>
+                    <a href="basket.html">장바구니</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contents">
+            <form action="" name="memberfrm" method="post" onsubmit="return false">
+                <h1>NERDY JOIN</h1>
+                <table>
+                    <tr class="idarea">
+                        <td>
+                            <span>아이디</span>
+                        </td>
+                        <td>
+                            <input type="text" name="id" id="">
+                            <button>중복확인</button>
+                        </td>
+                    </tr>
+                    <tr class="commonarea">
+                        <td><span>비밀번호</span></td>
+                        <td>
+                            <input type="text" name="pwd">
+                        </td>
+                    </tr>
+                    <tr class="commonarea">
+                        <td><span>비밀번호 확인</span></td>
+                        <td>
+                            <input type="text" name="pwdchk">
+                        </td>
+                    </tr>
+                    <tr class="commonarea">
+                        <td><span>이름</span></td>
+                        <td>
+                            <input type="text" name="name">
+                        </td>
+                    </tr>
+                    <tr class="juminarea">
+                        <td><span>생년월일</span></td>
+                        <td>
+                            <select name="jumin" id="jumin">
+                                <option value="년도">년도</option>
+                            </select>
+                            <select name="month" id="month">
+                                <option value="년도">월</option>
+                            </select>
+                            <select name="day" id="day">
+                                <option value="년도">일</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="telarea">
+                        <td><span>연락처</span></td>
+                        <td>
+                            <input type="text" name="phone1" placeholder="010"> -
+                            <input type="text" name="phone2" placeholder="1234"> -
+                            <input type="text" name="phone3" placeholder="1234">
+                            <button>본인인증</button>
+                        </td>
+                    </tr>
+                    <tr class="emailarea">
+                        <td><span>Email</span></td>
+                        <td>
+                            <input type="text" name="emailHost"> @
+                            <input type="text" name="email" id="email" disabled>
+                            <select name="elist" id="elist" onchange="emailchoice()">
+                                <option value="선택">선택</option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="nate.com">nate.com</option>
+                                <option value="hanmail.net">hanmail.net</option>
+                                <option value="gmail.com">gmail.com</option>
+                                <option value="hotmail.com">hotmail.com</option>
+                                <option value="outlook.com">outlook.com</option>
+                                <option value="empal.com">empal.com</option>
+                                <option value="dreamwiz.com">dreamwiz.com</option>
+                                <option value="lycos.co.kr">lycos.co.kr</option>
+                                <option value="yahoo.co.kr">yahoo.co.kr</option>
+                                <option value="korea.com">korea.com</option>
+                                <option value="paran.com">paran.com</option>
+                            </select>
+                        </td>
+
+                    </tr>
+                    <tr class="addrarea">
+                        <td><span>주소</span></td>
+                        <td colspan="2">
+                            <input class="addr1" type="text" name="addr1" placeholder="우편주소" disabled>
+                            <button>우편번호 찾기</button>
+                            <input class="addr2" type="text" name="addr2" placeholder="지역주소" disabled>
+                            <input class="addr3" type="text" name="addr3" placeholder="상세주소">
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="agreement_wrap">
+                    <div class="agreeAll chk_neo">
+                        <input type="checkbox" id="sAgreeAllChecked"><label for="sAgreeAllChecked" class="">모든 약관 동의에 동의합니다.</label>
+                    </div>
+                    <div class="chk-list">
+                        <div class="agr_item chk_neo">
+                            <input type="checkbox" name="age14" id="age14" value=""><label for="age14" class="label_chk">[필수] 만14세 이상입니다  </label>
+                        </div>
+    
+                        <div class="agr_item chk_neo">
+                            <input type="checkbox" name="agree_service_check" id="agree_service_check" value=""><label for="agree_service_check" class="label_chk">[필수] 서비스 이용약관</label>
+                        </div>
+    
+                        <div class="agr_item chk_neo">
+                            <input type="checkbox" name="agree_privacy_check" id="agree_privacy_check" value=""><label for="agree_privacy_check" class="label_chk">[필수] 개인정보 수집 및 이용 동의</label>
+                        </div>
+                
+                        <div class="agr_item chk_neo">
+                            <input type="checkbox" name="USER_DEFINED[45]" id="USER_DEFINED[45]" value=""><label for="USER_DEFINED[45]" class="label_chk">[필수] 제3자 제공 동의</label>
+                        </div>
+                
+                        <div class="agr_item chk_neo">
+                            <input type="checkbox" name="marketing_consent_check" id="marketing_consent_check" value=""><label for="marketing_consent_check" class="label_chk">[선택] 마케팅 목적의 개인정보 수집 및 이용</label>
+                        </div>
+                        <div class="agr_item chk_neo ">
+                            <input id="is_sms0" name="is_sms" value="" type="checkbox"><label for="is_sms0">[선택] SMS, 카카오톡 등 수신동의</label>
+                        </div>
+                        <div class="agr_item chk_neo">
+                            <input id="is_news_mail0" name="is_news_mail" type="checkbox"><label for="is_news_mail0">[선택] 이메일 수신동의</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-menu">
+                    <button style="background-color: black; color: white;">가 입</button>
+                    <button class="cencel" onclick="cencel()">취 소</button>
+                </div>
+                
+            </form>
+        </div>
+
+        <div id="footer">
+            <div class="side_atc">
+                <div class="logo_b" style="margin-bottom: 20px;">
+                    <img src="main-component/img/nerdylogo.png" alt="CHARG"></div>
+        
+                <div class="comInfo" style="font-size: 12px;">
+                    <strong>주식회사 에이밍</strong><br>
+                    대표이사 : 000 / 대구광역시 수성구청 300, 36층 (신천동, 롯데월드타워)<br>
+                    사업자등록번호 000-00-00000 <a href="#">[사업자정보확인]</a> <br>
+        
+                    <div class="copy" style="padding-top: 20px; box-sizing: border-box;">
+                        © NERDY all rights reserved. HostIing by CAFE24
+                    </div>
+                </div>
+            </div>
+    
+            <div class="right_atc">
+                <ul class="footer_gnb">
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#"><strong>개인정보 처리방침</strong></a></li>
+                </ul>
+                <ul class="footer_gnb"><li><a href="#">회사소개</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                    <li><a href="#">멤버십</a></li>
+                    <li><a href="#">파트너십</a></li>
+                </ul>
+                <div class="tel_info">
+                    <div class="tel" style="font-size: 20px; margin-bottom: 10px;">1544-2083</div>
+                    <div class="tel2" style="font-size: 12px;">
+                        09:00 - 18:00(토, 일, 공휴일 휴무)<br>
+                        LUNCH 12:00 - 13:30
+                    </div>
+                    <div class="btm_sns">
+                        <ul>
+                            <li><a href="#"><i class="xi xi-facebook"></i></a></li>
+                            <li><a href="#"><i class="xi xi-youtube-play"></i></a></li>
+                            <li><a href="#"><i class="xi xi-instagram"></i></a></li>
+                            <!--                    ┌해당 웹페이지로 이동 -->
+                            <!-- <a href="" target="_blank"></a> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

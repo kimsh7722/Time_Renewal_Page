@@ -1,0 +1,38 @@
+.agreement_wrap {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.agreeAll {
+    height: 40px;
+    background-color: rgb(255, 255, 183);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left:10px;
+}
+.agreeAll>input {
+    width: 20px; height: 20px;
+}
+.agreeAll>label {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.chk-list {
+    border: 1px solid lightgray;
+    padding:5px 20px; box-sizing: border-box;
+    
+}
+.agr_item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.agr_item input[type=checkbox] {
+    margin-right: 5px;
+}
+

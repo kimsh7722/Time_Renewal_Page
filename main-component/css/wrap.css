@@ -1,0 +1,16 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#wrap a {
+    text-decoration: none;
+}
+
+#wrap ul {
+    margin: 0; padding: 0;
+}

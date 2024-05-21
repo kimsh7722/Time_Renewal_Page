@@ -1,0 +1,120 @@
+#content1 {
+    width: 100%;
+    /* border:10px solid black; */
+}
+#content1 .main-banner {
+    width: 100%;
+    height: 100vh;
+}
+.main-banner iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+.item-menu {
+    width: 100%;
+    height: 100%;
+
+    /* ┌grid영역전환 */
+    display: grid; 
+    
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 2px solid green; */
+
+    /* ┌grid영역에 해당 컨탠츠 크기 조절  */
+    grid-template-columns: 1fr 1fr 1fr;
+    /*┌영역간격 0전환        └ 1fr은 1:이며 column(열)영
+    역 1칸이란뜻 */
+    column-gap: 0; 
+}
+.item {
+    width: 100%;
+    height: 100%;
+}
+.item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bnner-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* contents 2 구간 */
+#content2 {
+    width: 100%;
+    height: auto;
+    /* border:3px solid black; */
+}
+
+.item-menu2 {
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s2 .swiper-wrapper {
+    transition-timing-function: linear;
+}
+.item2 {
+    width: 100%;
+    height: 100%;
+}
+.item2 a{
+    width: 100%;
+    height: 100%;
+}
+.item2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.notice {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid orangered; */
+    padding-left: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.35);
+}
+
+/* contents 3구간 */
+#content3 {
+    width: 100%;
+    background-color: cadetblue;
+    /* border:2px solid firebrick; */
+}
+.item-img-box {
+    height: 100%;
+    /* border: 2px solid slateblue; */
+    display: flex;
+}
+.item-img-box>.con3 {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.con3>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

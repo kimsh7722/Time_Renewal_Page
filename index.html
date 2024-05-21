@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ┌메뉴 상단 ICON -->
+    <link rel="icon" href="main-component/img/logonerdy.webp">
+    <title>주제-쇼핑몰</title>
+
+    <!-- CSS 경로 -->
+    <link rel="stylesheet" href="main-component/css/wrap.css">
+    <link rel="stylesheet" href="main-component/css/header.css">
+    <link rel="stylesheet" href="main-component/css/content.css">
+    <link rel="stylesheet" href="main-component/css/footer.css">
+    <link rel="stylesheet" href="main-component/css/menu-drop.css">
+
+    <!-- BootStrap API - LOGO -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Swiper API 기능 구현 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main-component/js/swiper.js" defer></script>
+
+</head>
+<body>
+    <div id="wrap">
+        
+        <div id="header">
+            <div id="nav">
+                <div class="left-logo">
+                    <a href="index.html">
+                        <img src="main-component/img/nerdylogo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="reder-menw">
+                    <ul>
+                        <!-- ┌ nav의 Dropdwon 메뉴 추가 -->
+                        <li class="main-menu drop">
+                            <a href="">베스트</a>
+                            <ul class="sub-menu sub-menu-image">
+                                <li>
+                                    <a href="">
+                                        <img src="main-component/img/nav_01.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="main-component/img/nav_02.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="main-component/img/nav_03.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu drop">
+                            <a href="#">MAN</a>
+                            <ul class="sub-menu menu-list">
+                                <li>
+                                    <a href="">남성 상의</a>
+                                    <ul>
+                                        <li><a href="">맨투맨</a></li>
+                                        <li><a href="">반팔</a></li>
+                                        <li><a href="">아우터</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">남성 하의</a>
+                                    <ul>
+                                        <li><a href="">팬츠</a></li>
+                                        <li><a href="">7부</a></li>
+                                        <li><a href="">5부</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">남성 신발</a>
+                                    <ul>
+                                        <li><a href="">운동화</a></li>
+                                        <li><a href="">슬리퍼</a></li>
+                                        <li><a href="">크록스</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">남성 액세서리</a>
+                                    <ul>
+                                        <li><a href="">가방</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu drop">
+                            <a href="">WOMAN</a>
+                            <ul class="sub-menu menu-list">
+                                <li>
+                                    <a href="">여성 상의</a>
+                                    <ul>
+                                        <li><a href="">맨투맨</a></li>
+                                        <li><a href="">반팔</a></li>
+                                        <li><a href="">아우터</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">여성 하의</a>
+                                    <ul>
+                                        <li><a href="">팬츠</a></li>
+                                        <li><a href="">7부</a></li>
+                                        <li><a href="">5부</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">여성 신발</a>
+                                    <ul>
+                                        <li><a href="">운동화</a></li>
+                                        <li><a href="">슬리퍼</a></li>
+                                        <li><a href="">크록스</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">여성 액세서리</a>
+                                    <ul>
+                                        <li><a href="">가방</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu ">
+                            <a href="wareslist-board.html">아울렛</a>
+                        </li>
+                        <li class="main-menu drop">
+                            <a href="">고객센터</a>
+                            <ul class="sub-menu service-list">
+                                <li><a href="">Notice</a></li>
+                                <li><a href="">ReVlue</a></li>
+                                <li><a href="">Q & A</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-side">
+                    <div>
+                        <div class="search-1">
+                            <input type="search" placeholder="Search">
+                            <a href="" style="padding-left: 5px; box-sizing: border-box;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="login.html">로그인</a>
+                    <a href="member-join.html">회원가입</a>
+                    <a href="basket.html">장바구니</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- contents 1 구간 -->
+        <div id="content1">
+            <div class="swiper s1">
+                <div class="main-banner">
+                    <!-- loop와 playlist도 함께 넣어줘야 반복가능 -->
+                    <iframe src="https://www.youtube.com/embed/1SHOgoW0oxk?autoplay=1&mute=1&loop=1&playlist=1SHOgoW0oxk&controls=0" 
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item-menu">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="main-component/img/main3_01.png" alt="이미지1">
+                                </a>
+                            </div>    
+                            <div class="item">
+                                <a href="#">
+                                    <img src="main-component/img/main3_02.png" alt="이미지2">
+                                </a>
+                            </div>    
+                            <div class="item">
+                                <a href="#">
+                                    <img src="main-component/img/main3_03.png" alt="이미지3">
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="main-component/img/main1_01.png" alt="이미지1">
+                                </a>
+                            </div>    
+                            <div class="item">
+                                <video class="bnner-video" src="main-component/video/bennerVideo.mp4" autoplay loop muted></video>
+                            </div>    
+                            <div class="item">
+                                <a href="#">
+                                    <img src="main-component/img/main1_03.png" alt="이미지3">
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contents 2구간 -->
+        <div id="content2">
+            <div class="notice">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"/>
+                  </svg>&nbsp;스와이프하여 원하는 제품을 골라보세요.
+            </div>
+            <div class="swiper s2" dir="ltr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-01.jpg" alt="이미지1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-02.jpg" alt="이미지2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-03.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-04.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-05.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-06.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-07.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-08.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-09.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-menu2">
+                            <div class="item2">
+                                <a href="#">
+                                    <img src="main-component/img/con2-img-10.jpg" alt="이미지3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content3">
+            <div class="section">
+                <div class="item-img-box">
+                    <div class="item-sub con3">
+                        <img src="main-component/img/con3-img-01.jpg" alt="이미지1">
+                    </div>    
+                    <div class="item-sub con3">
+                        <img src="main-component/img/con3-img-02.jpg" alt="이미지2">
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="side_atc">
+                <div class="logo_b" style="margin-bottom: 20px;">
+                    <img src="main-component/img/nerdylogo.png" alt="CHARG"></div>
+        
+                <div class="comInfo" style="font-size: 12px;">
+                    <strong>주식회사 에이밍</strong><br>
+                    대표이사 : 000 / 대구광역시 수성구청 300, 36층 (신천동, 롯데월드타워)<br>
+                    사업자등록번호 000-00-00000 <a href="#">[사업자정보확인]</a> <br>
+        
+                    <div class="copy" style="padding-top: 20px; box-sizing: border-box;">
+                        © NERDY all rights reserved. HostIing by CAFE24
+                    </div>
+                </div>
+            </div>
+    
+            <div class="right_atc">
+                <ul class="footer_gnb">
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#"><strong>개인정보 처리방침</strong></a></li>
+                </ul>
+                <ul class="footer_gnb"><li><a href="#">회사소개</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                    <li><a href="#">멤버십</a></li>
+                    <li><a href="#">파트너십</a></li>
+                </ul>
+                <div class="tel_info">
+                    <div class="tel" style="font-size: 20px; margin-bottom: 10px;">1544-2083</div>
+                    <div class="tel2" style="font-size: 12px;">
+                        09:00 - 18:00(토, 일, 공휴일 휴무)<br>
+                        LUNCH 12:00 - 13:30
+                    </div>
+                    <div class="btm_sns">
+                        <ul>
+                            <li><a href="#"><i class="xi xi-facebook"></i></a></li>
+                            <li><a href="#"><i class="xi xi-youtube-play"></i></a></li>
+                            <li><a href="#"><i class="xi xi-instagram"></i></a></li>
+                            <!--                    ┌해당 웹페이지로 이동 -->
+                            <!-- <a href="" target="_blank"></a> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

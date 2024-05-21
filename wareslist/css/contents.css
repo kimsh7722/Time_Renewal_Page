@@ -1,0 +1,128 @@
+#contents {
+    width: 100%;
+    border: 1px solid green;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+.contents-item {
+    margin: 20px 3%;
+    /* border: 1px solid lightgray; */
+}
+.contents-item>h2 {
+    margin:0 5%;
+    /* border: 1px solid black; */
+}
+
+/* content-menu-list 구간 */
+.contents-list {
+    width: 100%;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    margin-top:5px;
+
+    /* 콘테이너 영역으로 전환 */
+    display: grid; 
+    /* grid 형태정의 : 열의 배치 */
+    grid-template-columns: repeat(5,1fr);
+    /* 
+        fr : fraction이며 '여기로'라고 한다-> 1fr은 1비율로 정한다
+        repeat : 반복되는 값을 자동으로 처리
+    */
+    
+}
+.item-list{
+    border: 1px solid lightgray;
+    margin: 10px 5px;
+}
+
+/* 상단 이미지 영역 */
+.item-list>.top-image {
+    /* border: 1px solid rgb(55, 175, 255); */
+    width: 100%;
+}
+.top-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 중간 이미지 영역 */
+.item-list>.bottom-image {
+    /* border: 1px solid rgb(255, 55, 245); */
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.bottom-image>.img-div {
+    width: 20%;
+    margin-left: 3px;
+    /* background-color: blueviolet; */
+}
+.img-div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* 하단 설명 영역 */
+.item-plan {
+    width: 100%;
+    /* border: 1px solid rgb(0, 255, 64); */
+}
+.item-plan>.plan {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    /* border: 1px solid navy; */
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* content-page 구간 */
+.contents-page {
+    width: 100%;
+    /* border: 1px solid royalblue; */
+    /* margin-top: 20px; */
+    margin:5% 0px;
+}
+.contents-page>.page-menu,.pageNumber {
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contents-page a {
+    display: block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* 하단 Page 버튼 hover 이벤트 */
+.contents-page a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* CSS hover처린 */
+/* 마우스를 올렸을 때 이미지 변경 */
+.bottom-image .img-div img:hover {
+    transform: scale(1.1); /* 이미지를 확대하여 보여줌 */
+}
+
+/* 하단 이미지에 마우스를 올렸을 때 커서 스타일 변경 */
+.bottom-image .img-div img {
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
