@@ -22,7 +22,7 @@ li {
         grid-tempate-areas:
             "header","content1","content2","content3","footer";
     }
-    #header, #content1, #content2, #content3, footer {
+    #header, #content1, #content2, #content3, #footer {
         width:100%;
     }
 }
