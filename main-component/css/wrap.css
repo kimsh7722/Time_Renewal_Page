@@ -6,7 +6,9 @@
 li {
     list-style: none;
 }
-
+#wrap {
+    display:grid;
+}
 #wrap a {
     text-decoration: none;
 }
@@ -15,3 +17,12 @@ li {
     margin: 0; padding: 0;
 }
 
+@media(max-width:768px) {
+    #wrap {
+        grid-tempate-areas:
+            "header","content1","content2","content3","footer";
+    }
+    #header, #content1, #content2, #content3, footer {
+        width:100%;
+    }
+}
