@@ -1,4 +1,14 @@
 #content1 {
+    grid-area:content1;
+}
+#content2 {
+    grid-area:content2;
+}
+#content3 {
+    grid-area:content3;
+}
+
+#content1 {
     width: 100%;
     /* border:10px solid black; */
 }
