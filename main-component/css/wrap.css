@@ -6,11 +6,16 @@
 li {
     list-style: none;
 }
-
-#wrap a {
-    text-decoration: none;
-}
-
-#wrap ul {
-    margin: 0; padding: 0;
+@media(min-width:1024px) {
+    #wrap {
+        width:auto;
+        height:auto;
+    }
+    #wrap a {
+        text-decoration: none;
+    }
+    
+    #wrap ul {
+        margin: 0; padding: 0;
+    }
 }
