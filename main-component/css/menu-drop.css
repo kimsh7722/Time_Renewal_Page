@@ -1,3 +1,4 @@
+@media(min-width:768px) {
 #header {
     position: relative;
 }
@@ -91,3 +92,4 @@
     /* border: 1px solid black; */
 } 
 
+}
