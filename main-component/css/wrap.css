@@ -15,8 +15,4 @@ li {
     margin: 0; padding: 0;
 }
 
-@media(max-width:768px) {
-    #header, #content1, #content2, #content3, #footer {
-        width:100%;
-    }
-}
+
