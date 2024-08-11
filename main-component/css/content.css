@@ -1,4 +1,4 @@
-@media(min-width:768px) {
+
 #content1 {
     width: 100%;
     /* border:10px solid black; */
@@ -119,4 +119,4 @@
     height: 100%;
     object-fit: cover;
 }
-}
+
